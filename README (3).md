@@ -1,6 +1,8 @@
 # ScamCheck AI
 
-AI Anti-Scam & Phishing Detector berbasis Telegram, n8n, VirusTotal, dan AI Agent.
+AI Deteksi Scam & Phishing berbasis Telegram, n8n, VirusTotal, dan AI Agent
+<img width="956" height="408" alt="image" src="https://github.com/user-attachments/assets/86afd8d1-48d1-4b63-a513-3d8ab30afad1" />
+
 
 # Tools
 
@@ -82,6 +84,7 @@ Telegram Reply
 # Step
 
 ## 1️⃣ Telegram Trigger 🤖✉️
+<img width="145" height="107" alt="image" src="https://github.com/user-attachments/assets/5c9514c2-4ec8-4279-85c3-464653a5fb39" />
 
 > Goal: Menerima pesan dari pengguna melalui Telegram.
 
@@ -105,6 +108,7 @@ Telegram Reply
 ---
 
 ## 2️⃣ Edit Fields 📝
+<img width="112" height="95" alt="image" src="https://github.com/user-attachments/assets/c6b896f2-6689-4d71-a878-7f2993673459" />
 
 > Goal: Menyamakan format data dari Telegram agar dapat digunakan oleh node berikutnya.
 
@@ -133,6 +137,7 @@ Output:
 ---
 
 ## 3️⃣ URL Detection 🔗
+<img width="234" height="115" alt="image" src="https://github.com/user-attachments/assets/b7f74961-26bf-4315-b0ff-6abd414e515b" />
 
 > Goal: Mendeteksi URL dari pesan Telegram dan membuat `url_id` untuk digunakan oleh VirusTotal.
 
@@ -188,6 +193,7 @@ Contoh:
 ---
 
 ## 4️⃣ IF — URL Check 🔀
+<img width="357" height="249" alt="image" src="https://github.com/user-attachments/assets/a52772b4-5e00-4385-8e45-407ee48a5412" />
 
 > Goal: Menentukan apakah pesan pengguna memiliki URL.
 
@@ -219,6 +225,7 @@ Jika tidak terdapat URL, pesan langsung diteruskan ke AI Agent untuk dianalisis 
 ---
 
 ## 5️⃣ VirusTotal URL Analysis 🔍
+<img width="197" height="97" alt="image" src="https://github.com/user-attachments/assets/53d94d83-803d-4ade-9a2a-3e23d4ffbda8" />
 
 > Goal: Mengirim URL ke VirusTotal dan mengambil hasil analisis.
 
@@ -289,6 +296,7 @@ Code Scoring
 ---
 
 ## 6️⃣ Code Scoring 📊
+<img width="139" height="157" alt="image" src="https://github.com/user-attachments/assets/fc6f99ac-7547-4b9d-9ee7-0494b978bfd2" />
 
 > Goal: Mengolah hasil VirusTotal menjadi informasi yang lebih mudah dipahami AI Agent.
 
@@ -320,6 +328,7 @@ Scoring digunakan sebagai informasi tambahan untuk AI Agent.
 ---
 
 # 7️⃣ AI Agent 🤖
+<img width="147" height="162" alt="image" src="https://github.com/user-attachments/assets/df8f8af5-05db-457f-8fd9-0241693e652e" />
 
 > Pada tahap ini pesan pengguna dianalisis oleh AI Agent. Jika terdapat URL, hasil pemeriksaan VirusTotal juga digunakan sebagai informasi tambahan.
 
@@ -398,6 +407,7 @@ Gunakan bahasa Indonesia yang sederhana dan mudah dipahami.
 ---
 
 # 8️⃣ Code + Telegram Reply ✉️
+<img width="149" height="107" alt="image" src="https://github.com/user-attachments/assets/6e294572-fac5-4c6c-abed-57e2292753d4" />
 
 > Setelah AI Agent menghasilkan analisis, hasil tersebut dikirim kembali kepada pengguna melalui Telegram.
 
