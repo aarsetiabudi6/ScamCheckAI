@@ -1,6 +1,6 @@
 # ScamCheck AI
 
-AI Deteksi Scam & Phishing berbasis Telegram, n8n, VirusTotal, dan AI Agent
+ScamCheck AI adalah solusi keamanan digital berbasis AI yang membantu mendeteksi potensi scam dan phishing melalui analisis pesan dan URL secara otomatis. Terintegrasi dengan Telegram, n8n, dan VirusTotal, sistem memberikan analisis risiko, indikator mencurigakan, serta rekomendasi keamanan kepada pengguna.
 <img width="956" height="408" alt="image" src="https://github.com/user-attachments/assets/86afd8d1-48d1-4b63-a513-3d8ab30afad1" />
 
 
